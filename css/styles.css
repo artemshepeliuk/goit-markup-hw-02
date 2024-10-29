@@ -49,10 +49,10 @@ h3 {
     letter-spacing: 0.03em;
     line-height: 1.17;
     color: #4d5ae5;
+}
 
-    span {
-        color: #2e2f42;
-    }
+.logo span {
+    color: #2e2f42;
 }
 
 .nav-link,
@@ -63,8 +63,10 @@ h3 {
     color: #2e2f42;
 }
 
-.address-link {
+.address {
     font-style: normal;
+}
+.address-link {
     color: #434455;
 }
 
@@ -73,8 +75,8 @@ h3 {
     color: #404bbf;
 }
 
-.nav-link:active,
-.address-link:active {
+.nav-link:focus,
+.address-link:focus {
     color: #404bbf;
 }
 
@@ -82,7 +84,7 @@ h3 {
     background-color: #2e2f42;
 }
 
-.hero h1 {
+.hero-title {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -100,6 +102,7 @@ h3 {
     letter-spacing: 0.04em
 }
 
-.hero .btn:hover {
+.hero .btn:hover,
+.hero .btn:focus {
     background-color: #404bbf;
 }
