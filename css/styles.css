@@ -8,13 +8,17 @@ body {
 /* font-weight: 500 */
 .btn,
 .nav-link,
-h3 {
+.solutions__item h3,
+.team__card h3,
+.portfolio__title h3 {
         font-weight: 500;
 }
 
 /* font-weight: 700 */
-h2,
-.logo {
+.logo,
+.solutions__title,
+.team__title,
+.portfolio__title {
     font-weight: 700;
 }
 
@@ -26,10 +30,6 @@ ul {
     list-style-type: none;
 }
 
-h1 {
-    line-height: 1.07143;
-}
-
 h2, h3 {
     color: #2e2f42;
 }
@@ -39,8 +39,13 @@ h2 {
 }
 
 h3 {
+    font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
+
+/* Header */
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -55,36 +60,39 @@ h3 {
     color: #2e2f42;
 }
 
-.nav-link,
-.address-link {
+.nav__link,
+.address__link {
     letter-spacing: 0.02em
 }
-.nav-link {
+.nav__link {
     color: #2e2f42;
 }
 
 .address {
     font-style: normal;
 }
-.address-link {
+
+.address__link {
     color: #434455;
 }
 
-.nav-link:hover,
-.address-link:hover {
+.nav__link:hover,
+.address__link:hover {
     color: #404bbf;
 }
 
-.nav-link:focus,
-.address-link:focus {
+.nav__link:focus,
+.address__link:focus {
     color: #404bbf;
 }
+
+/* Section Hero */
 
 .hero {
     background-color: #2e2f42;
 }
 
-.hero-title {
+.hero__title {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -106,3 +114,17 @@ h3 {
 .hero .btn:focus {
     background-color: #404bbf;
 }
+
+/* Section Solutions */
+
+.solutions__item p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Section Our Team */
+
+
+/* Section Our Portfolio */
