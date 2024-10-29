@@ -3,23 +3,37 @@ body {
     color: #434455;
     background-color: #fff;
     line-height: 1.5;
+    margin: 0;
 }
 
-/* font-weight: 500 */
-.btn,
-.nav-link,
-.solutions__item h3,
-.team__card h3,
-.portfolio__title h3 {
-        font-weight: 500;
-}
-
-/* font-weight: 700 */
-.logo,
+/* h2 styles */
 .solutions__title,
 .team__title,
 .portfolio__title {
     font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+}
+
+/* h3 styles */
+.subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+/* p styles */
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 a {
@@ -30,25 +44,11 @@ ul {
     list-style-type: none;
 }
 
-h2, h3 {
-    color: #2e2f42;
-}
-
-h2 {
-    line-height: 1.11111;
-}
-
-h3 {
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
 /* Header */
 
 .logo {
     font-family: "Raleway", sans-serif;
+    font-weight: 700;
     text-transform: uppercase;
     font-size: 18px;
     letter-spacing: 0.03em;
@@ -56,16 +56,14 @@ h3 {
     color: #4d5ae5;
 }
 
-.logo span {
+.logo--dark {
     color: #2e2f42;
 }
 
-.nav__link,
-.address__link {
-    letter-spacing: 0.02em
-}
 .nav__link {
     color: #2e2f42;
+    font-weight: 500;
+    letter-spacing: 0.02em
 }
 
 .address {
@@ -74,6 +72,7 @@ h3 {
 
 .address__link {
     color: #434455;
+    letter-spacing: 0.02em
 }
 
 .nav__link:hover,
@@ -93,6 +92,7 @@ h3 {
 }
 
 .hero__title {
+    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -105,6 +105,7 @@ h3 {
     color: #fff;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em
@@ -117,14 +118,29 @@ h3 {
 
 /* Section Solutions */
 
-.solutions__item p {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
 
 /* Section Our Team */
+.team {
+    background-color: #f4f4fd;;
+}
 
+.team__card {
+    /* display: inline-block; */
+    background-color: #fff;
+}
 
 /* Section Our Portfolio */
+
+/* Footer */
+
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer .text {
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+}
+.logo--white {
+    color: #f4f4fd;
+}
