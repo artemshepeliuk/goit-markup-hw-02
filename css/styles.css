@@ -175,6 +175,10 @@ ul {
 .solutions__list {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .solutions__item {
@@ -197,8 +201,11 @@ ul {
 .team__cards {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
     padding-bottom:116px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .team__card {
@@ -213,7 +220,7 @@ ul {
     border-radius: 0 0 4px 4px;
 }
 
-.card__content {
+.team__content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -229,14 +236,54 @@ ul {
 
 
 /* #region Our Portfolio */
+.portfolio__cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    gap: 40px 24px;
+}
 
+.portfolio__card {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio__card:nth-child(3),
+.portfolio__card:last-child {
+    margin-right: 0;
+}
+
+.portfolio__card:hover {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.portfolio__content {
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    padding: 32px 16px;
+}
+
+
+
+/* #endregion */
 
 /* #region Footer */
 .footer {
+    display: flex;
     background-color: #2e2f42;
+    padding: 100px 156px;
 }
 
-.footer .description {
+.footer__text {
+    max-width: 264px;
+}
+
+.footer__text .description {
     color: #f4f4fd;
     letter-spacing: 0.02em;
 }
